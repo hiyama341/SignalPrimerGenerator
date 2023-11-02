@@ -1,6 +1,32 @@
 # SignalPrimerGenerator
 
-This repo can be used to generate primers from fasta or genbank files automatically. It can also remove the signal peptides by incorporating functions to read SignalP outputs.
+## Overview
+
+Welcome to PrimeGenTool, the automated solution for your primer design needs. This repository hosts a tool capable of generating primers from FASTA or GenBank files effortlessly. Additionally, SignalPrimerGenerator integrates functionality to process SignalP outputs for the efficient removal of signal peptides from protein sequences. This utility is aimed at molecular biologists,or anyone in need of streamlined primer design for their genetic analysis and experiments.
+
+## Features
+
+- **Automated Primer Generation**: Input your FASTA or GenBank files, and receive optimal primer sequences for your PCR experiments.
+- **Signal Peptide Processing**: Utilizes SignalP output to accurately identify and remove signal peptide sequences from proteins.
+- **Customizable**: Allows for adjustable parameters to suit various experimental needs.
+
+## Getting Started
+
+### Prerequisites
+
+Before running PrimeGenTool, ensure you have the following:
+
+- Python >=3.8
+- Biopython library
+- teemi library
+- pydna library
+
+### Installation
+
+To get started with SignalPrimerGenerator, clone this repository to your local machine using:
+
+```bash
+git clone https://github.com/hiyama341/SignalPrimerGenerator.git
 
 ## Project Organization
 
@@ -52,3 +78,4 @@ This repo can be used to generate primers from fasta or genbank files automatica
 ---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+```
