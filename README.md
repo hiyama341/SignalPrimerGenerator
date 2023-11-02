@@ -27,6 +27,7 @@ To get started with SignalPrimerGenerator, clone this repository to your local m
 
 ```bash
 git clone https://github.com/hiyama341/SignalPrimerGenerator.git
+```
 
 ## Project Organization
 
@@ -77,5 +78,4 @@ git clone https://github.com/hiyama341/SignalPrimerGenerator.git
 
 ---
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-```
+### Project based on the cookiecutter data science project template.
