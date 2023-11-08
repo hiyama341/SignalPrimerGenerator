@@ -14,7 +14,7 @@ Welcome to PrimeGenTool, the automated solution for your primer design needs. Th
 
 ### Prerequisites
 
-Before running PrimeGenTool, ensure you have the following:
+Before running SignalPrimerGenerator, ensure you have the following:
 
 - Python >=3.8
 - Biopython library
@@ -28,6 +28,16 @@ To get started with SignalPrimerGenerator, clone this repository to your local m
 ```bash
 git clone https://github.com/hiyama341/SignalPrimerGenerator.git
 ```
+
+## Running the SignalPrimerGenerator
+
+Go to the following [notebook](notebooks/00-LL-primer-design.ipynb) and add make primers.
+
+- Inputs: SignalP output folder, fasta or genbank files for the genes you want to amplify.
+
+- Outputs: A pandas dataframe with the generate primers as well as one with PCR schema.
+
+Happy cloning :)
 
 ## Project Organization
 
